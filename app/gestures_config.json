@@ -4,24 +4,24 @@
     {
       "code": "A",
       "text": "A",
-      "description": "Four fingers bent, thumb open.",
+      "description":"Four fingers bent, thumb open.",
       "target_accuracy_percent": 95.2
     },
     {
       "code": "B",
       "text": "B",
-      "description": "Thumb bent, other fingers open.",
+      "description":"Thumb bent, other fingers open.",
       "target_accuracy_percent": 92.5
     },
     {
       "code": "I_NEED_FOOD",
       "text": "I need food",
-      "description": "Multiple-finger bend with orientation cue.",
+      "description":"Multiple-finger bend with orientation cue.",
       "target_accuracy_percent": 88.7
     },
     {
-      "code": "HELP",
-      "text": "Help",
+      "code":"HELP",
+      "text":"Help",
       "description": "Open hand gesture with orientation stability.",
       "target_accuracy_percent": 90.3
     }
