@@ -202,7 +202,7 @@ def run(args: argparse.Namespace) -> int:
     print(f"Baud rate: {args.baud}")
     print(f"Logging to: {log_path}")
     if args.speak and pyttsx3 is None:
-        print("TTS disabled: pyttsx3 is not installed.", file=sys.stderr)
+        print( "TTS disabled: pyttsx3 is not installed.", file=sys.stderr )
 
     csv_handle, csv_writer = open_csv_writer(log_path)
     phrase_state = {"phrase": "", "last_append_at": 0.0, "append_gap_s": args.append_gap}
